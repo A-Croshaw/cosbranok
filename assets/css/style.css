@@ -19,7 +19,7 @@ h2, h3 {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  font-size: 100%;
+  font-size: 140%;
 }
 
 h2{
@@ -112,7 +112,7 @@ nav ul {
 .nav-bar-items a {
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 80%;
+  font-size: 90%;
   text-decoration: none;
   color: #2b2929;
 }
@@ -145,8 +145,8 @@ nav ul {
 }
 
 .text-hero {
-  width: 250px;
-  height: 50px;
+  width: 350px;
+  height: 65px;
   background-color: #f5e500c9;
 }
 /*---main content---*/
@@ -161,9 +161,9 @@ nav ul {
 
 .main-text{
   line-height: 30px;
-  padding: 10px;
-  text-align:justify;
-  font-size:140%;
+  padding: 5px;
+  text-align:left;
+  font-size:110%;
   letter-spacing: 1px;
 }
 hr {
@@ -172,7 +172,7 @@ hr {
   margin: 5px 0;
 }
 .main-text h3{
-  font-size: 150%;
+  font-size: 130%;
   padding: 10px;
   line-height: 45px;
 }
@@ -192,6 +192,20 @@ hr {
   header h2 {
     font-size: 80%;
     letter-spacing:1px;
+  }
+}
+
+  @media screen and (max-width: 400px) {
+  h3{
+    font-size:100%;
+  }
+  .text-hero {
+    width: 240px;
+    height: 50px;
+    background-color: #f5e500c9;
+  }
+  .nav-bar-items a{
+    font-size: 80%;
   }
 }
 
