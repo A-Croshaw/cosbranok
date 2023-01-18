@@ -12,6 +12,7 @@ body {
   font-weight: 450;
   font-size: 100%;
   color: #000000;
+  background-color: #f5e5001c;
 }
 
 h2, h3 {
@@ -150,28 +151,27 @@ nav ul {
 }
 /*---main content---*/
 
-.black,
-.red,
-.blue {
-  gap:2px;
-  flex: 33%;
-  flex-direction: column;
+.main-left,
+.main-right {
+  gap:2px;  
   flex-grow: 1;
-  flex-basis: 160px;
+  flex-basis: 150px;
+  border: 1px solid #000000;
 }
-.black {
-  background-color: #080808;
+
+.main-content {
+  border: 1px solid #000000;
+  flex:33%;
+  flex-direction: column;
 }
-.red {
-  background-color: #e61818;
-}
-.blue {
-  background-color: #182de6;
+
+.main-video{
+  width: 100%; 
+  height: 100%; 
 }
 
 @media screen and (max-width: 700px) {
-  .black,
-  .red{
+.main-content{
     flex:100%
   }
   header h2 {
