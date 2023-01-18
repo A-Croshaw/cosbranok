@@ -6,49 +6,66 @@
   border: none;
   box-sizing: border-box;
 }
+
 body {
   font-family: Slabo, sans-serif;
   font-weight: 450;
   font-size: 100%;
   color: #000000;
 }
+
 h2, h3 {
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 3px;
   color: #000000;
+  font-size: 100%;
+}
+
+h2{
+  letter-spacing: 4px;
 }
 
 a, h2, h3{
   font-family: Prata, sans-serif;
-  font-size: 100%;
-  letter-spacing: 2px;
 }
+
 .hf-bg-color{
     background-color: #f5e500a6;
 }
+
 /*---gerneric flex box---*/
+
 .box{
   display: flex;
   flex-wrap: wrap;
 }
+
 .align-box-center{
   align-items: center;
   justify-content: space-evenly;
 }
+
+.align-content-center{
+  align-items: flex-end;
+  justify-content: center;
+}
+
 /*--logo--*/
 
 .logo-left {
   margin-left: auto;
 }
+
 .logo-right {
   margin-right: auto;
 }
+
 .logo {
   height: 30px;
   width: 0 auto;
   border-radius: 50%;
 }
+
 /*---keyframes---*/
 
 @keyframes nav-button {
@@ -58,7 +75,14 @@ a, h2, h3{
   }
 }
 
-
+@keyframes zoom-out {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
 
 /*----Header section----*/
 
@@ -67,16 +91,17 @@ a, h2, h3{
   background-color: #000000;
   flex: 100%;
 }
+
 header h2 {
-  padding-left: 5px;
   height: 25px;
   width: 100%;
   color: #fff;
 }
+
 /*---navigation---*/
 nav ul {
   max-width: 100%;
-  gap: 180px;
+  gap: auto;
   height: 35px;
   padding-top: 2px;
   list-style-type: none;
@@ -84,6 +109,8 @@ nav ul {
 
 .nav-bar-items a {
   font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 80%;
   text-decoration: none;
   color: #2b2929;
 }
@@ -99,15 +126,34 @@ nav ul {
   border-bottom: 1px solid #d40000;
 }
 
+/*---Hero Image----*/
+
+.outer-hero {
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-hero {
+  background: url(../images/hero-image.webp) no-repeat center;
+  height: 250px;
+  width: 100%;
+  animation-name: zoom-out;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+.text-hero {
+  width: 250px;
+  height: 50px;
+  background-color: #f5e500c9;
+}
+
 /*--
 ---for media queries----
 
 header h2 {
-  font-size: 100%;
-  padding-left: 5px;
-}
-nav ul {
-  gap: 200px;
+  font-size: 80%;
+  letter-spacing:1px;
 }
 
 -*/
