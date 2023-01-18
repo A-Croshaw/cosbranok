@@ -1,145 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Prata&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Prata&family=Slabo+27px&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
-  }
-  
-  body {
-    font-family: 'Libre Baskerville', sans-serif;
-    font-weight: 450;
-    color: #020103;
-  }
-
-/* heading and logo */
-
-h1,
-h2{
-  font-family: Prata, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: Slabo, sans-serif;
+  font-weight: 450;
+  font-size: 100%;
+  color: #000000;
+}
+h2, h3 {
+  text-align: center;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   color: #000000;
 }
 
-.main-header,
-div h2 {
-  font-size: 110%;
-  text-align: center;
-  letter-spacing: 6px;
-  margin: 0 auto;
+a, h2, h3{
+  font-family: Prata, sans-serif;
+  font-size: 100%;
+  letter-spacing: 2px;
+}
+.hf-bg-color{
+    background-color: #f5e500a6;
+}
+/*---gerneric flex box---*/
+.box{
+  display: flex;
+  flex-wrap: wrap;
+}
+.align-box-center{
+  align-items: center;
+  justify-content: space-evenly;
+}
+/*--logo--*/
+
+.logo-left {
+  margin-left: auto;
+}
+.logo-right {
+  margin-right: auto;
+}
+.logo {
   height: 30px;
-  width: 100%;
-  padding: 5px 0 5px 0;
-  color: #fff;
-  background-color: #00000070;
-}
-.header-logo {
-  height: 55px;
-  width: 20%;
-  float: left;
-  background-color: #fdf8b4ce;
-}
-.logo1 {
-  float: left;
-  margin-left: 30px;
-}
-.logo2 {
-  float: right;
-  margin-right: 30px;
-}
-.logo1,
-.logo2 {
-  height: 100px;
   width: 0 auto;
   border-radius: 50%;
-  animation-name: logo-animation;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
 }
-@keyframes logo-animation {
-  from {
-    transform: scale(1);
-  }
+/*---keyframes---*/
+
+@keyframes nav-button {
   to {
-    transform: scale(1.1);
+    color: #d40000;
+    font-size: 70%;
   }
 }
 
-.nav-bar {
-    height: 55px;
-    width: 60%;
-    float: left;
-    background-color: #fdf8b4ce;
-  }
 
-#header-banner-image {
-    background: url(../images/bannertop.png) no-repeat center;
-    height: 450px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .header-banner-text {
-    font-size: 110%;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    width: 650px;
-    height: 40px;
-    padding-top: 15px;
-    padding-left: 10px;
-    background-color: #fdf8b4ce;
-    color: #000000;
-    bottom: 5%;
-    right: 25%;
-    position: absolute;
-  }
 
-  /* navigation links */
+/*----Header section----*/
 
-  .nav-bar-items, 
-  .logo1, 
-  .logo2 {
-    line-height: 55px;
+.header1 {
+  padding-top: 5px;
+  background-color: #000000;
+  flex: 100%;
+}
+header h2 {
+  padding-left: 5px;
+  height: 25px;
+  width: 100%;
+  color: #fff;
+}
+/*---navigation---*/
+nav ul {
+  max-width: 100%;
+  gap: 180px;
+  height: 35px;
+  padding-top: 2px;
+  list-style-type: none;
 }
 
-.nav-bar-items {
-    font-family: Prata, sans-serif;
-    font-size: 130%;
-    font-weight: 700;
-    letter-spacing: 4px;
-    text-align: center;
-  }
-  
-  .nav-bar-items li {
-    display: inline;
-    text-align: center;
-    list-style-type: none;
-    margin: 0 15px 0 15px;
-  }
-  
-  .nav-bar-items a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .nav-bar-items a:hover {
-    border-bottom: 1px solid #d40000;
-    animation-name: nav-button;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-  }
-  
-  @keyframes nav-button {
-    to {
-      color: #d40000;
-      font-size: 135%;
-    }
-  }
-  
-  .active {
-    border-bottom: 1px solid #d40000;
-  }
-  
+.nav-bar-items a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #2b2929;
+}
+
+.nav-bar-items a:hover {
+  border-bottom: 1px solid #d40000;
+  animation-name: nav-button;
+  animation-duration: 1s;
+  animation-fill-mode: backwards;
+}
+
+.active {
+  border-bottom: 1px solid #d40000;
+}
+
+/*--
+---for media queries----
+
+header h2 {
+  font-size: 100%;
+  padding-left: 5px;
+}
+nav ul {
+  gap: 200px;
+}
+
+-*/
