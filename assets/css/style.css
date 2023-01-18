@@ -37,6 +37,7 @@ a, h2, h3{
 
 .box{
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -50,7 +51,7 @@ a, h2, h3{
   justify-content: center;
 }
 
-/*--logo--*/
+/*---logo---*/
 
 .logo-left {
   margin-left: auto;
@@ -84,7 +85,7 @@ a, h2, h3{
   }
 }
 
-/*----Header section----*/
+/*---Header section---*/
 
 .header1 {
   padding-top: 5px;
@@ -126,7 +127,7 @@ nav ul {
   border-bottom: 1px solid #d40000;
 }
 
-/*---Hero Image----*/
+/*---Hero Image---*/
 
 .outer-hero {
   width: 100%;
@@ -138,7 +139,7 @@ nav ul {
   height: 250px;
   width: 100%;
   animation-name: zoom-out;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-fill-mode: forwards;
 }
 
@@ -147,13 +148,35 @@ nav ul {
   height: 50px;
   background-color: #f5e500c9;
 }
+/*---main content---*/
 
-/*--
----for media queries----
-
-header h2 {
-  font-size: 80%;
-  letter-spacing:1px;
+.black,
+.red,
+.blue {
+  gap:2px;
+  flex: 33%;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 160px;
+}
+.black {
+  background-color: #080808;
+}
+.red {
+  background-color: #e61818;
+}
+.blue {
+  background-color: #182de6;
 }
 
--*/
+@media screen and (max-width: 700px) {
+  .black,
+  .red{
+    flex:100%
+  }
+  header h2 {
+    font-size: 80%;
+    letter-spacing:1px;
+  }
+}
+
