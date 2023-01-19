@@ -155,8 +155,9 @@ nav a:hover{
 .text-hero {
   width: 330px;
   height: 55px;
+  line-height: 30px;
   text-shadow: 1px 1px #ff00008f;
-  background-color: #fcf377c9;
+  background-color: #fcf37788;;
 }
 
 /*---main content---*/
@@ -288,7 +289,7 @@ footer div a:hover{
   .text-hero {
     width: 250px;
     height: 40px;
-    background-color: #f5e500c9;
+    line-height:20px;
     font-size: 80%;
   }
   nav a {
@@ -302,12 +303,49 @@ footer div a:hover{
     height: 15px;
   }
   .text-hero {
-    width: 230px;
-    height: 35px;
-    background-color: #f5e500c9;
+    width: 245px;
+    height: 40px;
     font-size: 65%;
   }
   nav a {
     font-size: 75%;
   }
+}
+
+.form-background {
+  flex:100%;
+  flex-wrap: wrap;
+  background: url("../images/image18.webp") no-repeat center;
+  height: 900px;
+}
+
+.contact-form{
+  display: flex;
+  flex-wrap:warp;
+  flex:auto;
+  flex-direction: column;
+}
+
+form{
+  display: flex;
+  flex:auto;
+  flex-direction: column;
+  align-items: center;
+  line-height: 35px;
+  justify-content: space-evenly;
+  gap: 10px;
+  background-color: #d4b40081;
+  width: 200px;
+  padding-bottom: 10px;
+}
+
+.contact-button {
+  margin-top: 20px;
+  border-radius: 50%;
+  padding: 10px 25px 10px 25px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #3b3b39;
+  color: #fafafa;
+  border-style: groove;
 }
