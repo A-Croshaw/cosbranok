@@ -243,7 +243,7 @@ footer div a:hover{
 }
 
 .gallery-column {
-  flex: 25%;
+  flex: 23%;
   max-width: 25%;
   padding: 0 4px;
 }
@@ -257,8 +257,14 @@ footer div a:hover{
 }
 
 /*---media queries---*/
+@media (max-width: 800px) {
+  .gallery-column {
+    flex: 48%;
+    max-width: 50%;
+  }
+}
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .main-content {
     flex: 100%;
   }
@@ -268,6 +274,10 @@ footer div a:hover{
   }
   .main-header {
     font-size:180%;
+  }
+  .gallery-column {
+    flex: 100%;
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 450px) {
