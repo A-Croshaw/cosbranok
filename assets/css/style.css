@@ -256,8 +256,74 @@ footer div a:hover{
 .gallery-img{
   width: 100%;
 }
+/*------gallery end----*/
+
+/*--------contact page-------*/
+
+.contact-background {
+  flex:100%;
+  flex-wrap: wrap;
+  background: url("../images/image18.webp") no-repeat center;
+  height: 900px;
+}
+
+.social-links{
+  display: flex;
+  flex-wrap:warp;
+  max-width: 275px;
+  flex-direction: column;
+  background-color: #fcf377bd;
+  gap:40px;
+  padding: 20px 0;
+}
+
+.social-header{
+  font-size: 170%;
+  line-height: 30px;
+  text-shadow: 1px 1px #ff00008f;
+}
+
+.social-icons{
+  padding:20px;
+  font-size: 200%;
+  color: #2b2929;
+  text-shadow: 1px 1px #f74b4b8f;
+}
+/*--form--*/
+.contact-form{
+  display: flex;
+  flex-wrap:warp;
+  flex:auto;
+  flex-direction: column;
+}
+
+form{
+  display: flex;
+  flex:auto;
+  flex-direction: column;
+  align-items: center;
+  line-height: 35px;
+  font-size: 110%;
+  justify-content: space-evenly;
+  gap: 12px;
+  background-color: #fcf3778e;
+  width: 250px;
+  padding: 15px 0 20px 0;
+}
+
+.contact-button {
+  margin-top: 20px;
+  border-radius: 50%;
+  padding: 10px 25px 10px 25px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #3b3b39;
+  color: #fafafa;
+  border-style: groove;
+}
 
 /*---media queries---*/
+
 @media (max-width: 800px) {
   .gallery-column {
     flex: 48%;
@@ -312,40 +378,3 @@ footer div a:hover{
   }
 }
 
-.form-background {
-  flex:100%;
-  flex-wrap: wrap;
-  background: url("../images/image18.webp") no-repeat center;
-  height: 900px;
-}
-
-.contact-form{
-  display: flex;
-  flex-wrap:warp;
-  flex:auto;
-  flex-direction: column;
-}
-
-form{
-  display: flex;
-  flex:auto;
-  flex-direction: column;
-  align-items: center;
-  line-height: 35px;
-  justify-content: space-evenly;
-  gap: 10px;
-  background-color: #d4b40081;
-  width: 200px;
-  padding-bottom: 10px;
-}
-
-.contact-button {
-  margin-top: 20px;
-  border-radius: 50%;
-  padding: 10px 25px 10px 25px;
-  text-align: center;
-  font-size: 100%;
-  background-color: #3b3b39;
-  color: #fafafa;
-  border-style: groove;
-}
