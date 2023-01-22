@@ -54,7 +54,12 @@ h3 {
   justify-content: center;
 }
 
-.align-bottom-spaced{
+.align-self-top {
+  align-self: flex-start;
+  justify-self: center;
+}
+
+.align-bottom-spaced {
   justify-content: space-around;
   align-items: flex-end;
 }
@@ -109,7 +114,7 @@ header h2 {
 
 /*---navigation---*/
 
-nav ul{
+nav ul {
   max-width: 100%;
   gap: auto;
   height: 35px;
@@ -125,7 +130,7 @@ nav a {
   color: #2b2929;
 }
 
-nav a:hover{
+nav a:hover {
   border-bottom: 1px solid #d40000;
   animation-name: nav-button;
   animation-duration: 1s;
@@ -157,7 +162,7 @@ nav a:hover{
   height: 55px;
   line-height: 30px;
   text-shadow: 1px 1px #ff00008f;
-  background-color: #fcf37788;;
+  background-color: #fcf37788;
 }
 
 /*---main content---*/
@@ -210,6 +215,9 @@ hr {
 
 /*----footer----*/
 
+footer {
+  margin-top: 10px;
+}
 .footer-logo {
   height: 30px;
   width: 0 auto;
@@ -230,7 +238,7 @@ footer div a {
   line-height: 10px;
 }
 
-footer div a:hover{
+footer div a:hover {
   animation-name: nav-button;
   animation-duration: 3s;
 }
@@ -253,7 +261,7 @@ footer div a:hover{
   margin-top: 8px;
   vertical-align: middle;
 }
-.gallery-img{
+.gallery-img {
   width: 100%;
 }
 /*------gallery end----*/
@@ -261,58 +269,81 @@ footer div a:hover{
 /*--------contact page-------*/
 
 .contact-background {
-  flex:100%;
-  flex-wrap: wrap;
-  background: url("../images/image18.webp") no-repeat center;
-  height: 900px;
+  background: url("../images/image16.webp") no-repeat center;
+  height: fit-content;
+  padding-bottom: 58px;
 }
 
-.social-links{
-  display: flex;
-  flex-wrap:warp;
-  max-width: 275px;
-  flex-direction: column;
-  background-color: #fcf377bd;
-  gap:40px;
-  padding: 20px 0;
+.contact-header-text {
+  padding-top: 25px;
+  text-shadow: 1px 1px #ff0000;
+  text-rendering: auto;
+  font-size: 200%;
 }
 
-.social-header{
+.contant-text-padding {
+  margin: 20px;
+}
+.contact-text {
   font-size: 170%;
+  line-height: 40px;
+  background-color: #fcf377a8;
+  max-width: 800px;
+  padding: 15px;
+}
+
+.flex-100 {
+  flex: 100%;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: warp;
+  max-width: 240px;
+  flex-direction: column;
+  background-color: #fcf377a8;
+  gap: 40px;
+  padding: 10px 5px;
+  margin-top: 15px;
+}
+
+.social-header {
+  font-size: 140%;
   line-height: 30px;
   text-shadow: 1px 1px #ff00008f;
 }
 
-.social-icons{
-  padding:20px;
-  font-size: 200%;
-  color: #2b2929;
-  text-shadow: 1px 1px #f74b4b8f;
+.social-icons {
+  padding: 20px;
+  font-size: 180%;
+  color: #000000;
+  text-shadow: 1px 1px #5000008f;
 }
 /*--form--*/
-.contact-form{
+
+.contact-form {
   display: flex;
-  flex-wrap:warp;
-  flex:auto;
+  flex-wrap: warp;
+  flex: auto;
   flex-direction: column;
 }
 
-form{
+form {
   display: flex;
-  flex:auto;
+  flex: auto;
   flex-direction: column;
   align-items: center;
-  line-height: 35px;
-  font-size: 110%;
+  line-height: 45px;
+  font-weight: 400;
+  font-size: 100%;
   justify-content: space-evenly;
-  gap: 12px;
-  background-color: #fcf3778e;
+  background-color: #fcf377a8;
   width: 250px;
-  padding: 15px 0 20px 0;
+  padding: 10px 0 10px 0;
+  margin-top: 20px;
 }
 
 .contact-button {
-  margin-top: 20px;
   border-radius: 50%;
   padding: 10px 25px 10px 25px;
   text-align: center;
@@ -340,7 +371,7 @@ form{
     height: 17px;
   }
   .main-header {
-    font-size:180%;
+    font-size: 180%;
   }
   .gallery-column {
     flex: 100%;
@@ -355,7 +386,7 @@ form{
   .text-hero {
     width: 250px;
     height: 40px;
-    line-height:20px;
+    line-height: 20px;
     font-size: 80%;
   }
   nav a {
@@ -376,5 +407,7 @@ form{
   nav a {
     font-size: 75%;
   }
+  .contact-header-text {
+    font-size: 150%;
+  }
 }
-
