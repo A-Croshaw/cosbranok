@@ -66,7 +66,9 @@
           <p class="contact-text">
             For more information on how to join our re-enactment society, or how
             to become a trade at one of our event. or general Information about
-            events and anything else. Simply fill out the Enquiries form or head
+            events and anything else. 
+            <br>
+            Simply fill out the Enquiries form or head
             over to one of our social media platforms by clicking the links.
           </p>
         </div>
@@ -81,31 +83,25 @@
             </div>
             <div class="contact-form box">
               <label for="fname">First Name</label>
-              <input type="text" id="fname" name="first_name" required />
+              <input class="input-field" type="text" id="fname" name="first_name" required />
               <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="last_name" required />
+              <input class="input-field" type="text" id="lname" name="last_name" required />
               <label for="email">Email Address</label>
-              <input type="email" id="email" name="email_address" required />
+              <input class="input-field" type="email" id="email" name="email_address" required />
               <label for="message">Message</label>
-              <input
-                style="height: 50px"
-                id="text"
-                id="message"
-                name="message"
-              />
+              <textarea class="form-message" id="message" name="message"></textarea>
             </div>
             <div class="contact-form box">
-              <label for="m-update">Monthly Updates</label>
+              <label class="monthly-updates" for="m-update">Selected For Monthly Updates</label>
               <input
                 type="radio"
                 id="m-update"
                 name="Monthly Updates"
                 value="Monthly Updates"
-                required
               />
             </div>
             <div class="box">
-              <input class="contact-button" type="submit" value="Send" />
+              <input class="contact-button" type="submit" value="Send" formaction="thankyou.html" />
             </div>
           </form>
         </div>

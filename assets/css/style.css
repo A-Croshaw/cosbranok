@@ -13,6 +13,7 @@ body {
   font-size: 100%;
   color: #000000;
   background-color: #f5e5001c;
+  background-size: auto;
 }
 
 h1,
@@ -270,7 +271,7 @@ footer div a:hover {
 
 .contact-background {
   background: url("../images/image16.webp") no-repeat center;
-  height: fit-content;
+  height:900px;
 }
 
 .contact-header-text {
@@ -282,10 +283,9 @@ footer div a:hover {
 }
 
 .contact-text {
-  font-size: 170%;
-  line-height: 40px;
-  text-align: center;
-  max-width: 800px;
+  font-size: 150%;
+  line-height: 35px;
+  max-width: 700px;
   padding: 5px 10px;
   margin: 20px;
 }
@@ -339,9 +339,24 @@ form {
   font-size: 110%;
   width: 220px;
   padding: 10px 0 10px 0;
-  margin: 20px 5px 5px 5px
+  margin: 10px 5px 5px 5px
+}
+.form-message{
+  resize: none;
+  height: 60px;
+  width: 200px;
 }
 
+.input-field {
+  height:25px;
+}
+
+.monthly-updates{
+  font-size: 90%;
+  line-height: 25px;
+  text-align: center;
+  margin-top:5px
+}
 .contact-button {
   margin-top: 10px;
   border-radius: 50%;
@@ -405,7 +420,7 @@ form {
   .text-hero {
     width: 250px;
     height: 40px;
-    line-height: 20px;
+    line-height: 19px;
     font-size: 80%;
   }
   nav a {
@@ -434,7 +449,7 @@ form {
     height: 15px;
   }
   .text-hero {
-    width: 235px;
+    width: 215px;
     height: 40px;
     font-size: 60%;
   }
