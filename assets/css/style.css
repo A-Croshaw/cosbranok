@@ -271,25 +271,23 @@ footer div a:hover {
 .contact-background {
   background: url("../images/image16.webp") no-repeat center;
   height: fit-content;
-  padding-bottom: 58px;
 }
 
 .contact-header-text {
-  padding-top: 25px;
+  margin-top: 25px;
+  padding: 5px;
   text-shadow: 1px 1px #ff0000;
   text-rendering: auto;
   font-size: 200%;
 }
 
-.contant-text-padding {
-  margin: 20px;
-}
 .contact-text {
   font-size: 170%;
   line-height: 40px;
-  background-color: #fcf377a8;
+  text-align: center;
   max-width: 800px;
-  padding: 15px;
+  padding: 5px 10px;
+  margin: 20px;
 }
 
 .flex-100 {
@@ -301,10 +299,9 @@ footer div a:hover {
   flex-wrap: warp;
   max-width: 240px;
   flex-direction: column;
-  background-color: #fcf377a8;
   gap: 40px;
   padding: 10px 5px;
-  margin-top: 15px;
+  margin: 15px 5px 5px 5px;
 }
 
 .social-header {
@@ -319,6 +316,10 @@ footer div a:hover {
   color: #000000;
   text-shadow: 1px 1px #5000008f;
 }
+
+.social-links, .contact-header-text, .contact-text, form{
+  background-color: #fcf377ce;
+}
 /*--form--*/
 
 .contact-form {
@@ -327,23 +328,22 @@ footer div a:hover {
   flex: auto;
   flex-direction: column;
 }
-
+ 
 form {
   display: flex;
   flex: auto;
   flex-direction: column;
-  align-items: center;
-  line-height: 45px;
-  font-weight: 400;
-  font-size: 100%;
-  justify-content: space-evenly;
-  background-color: #fcf377a8;
-  width: 250px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 110%;
+  width: 220px;
   padding: 10px 0 10px 0;
-  margin-top: 20px;
+  margin: 20px 5px 5px 5px
 }
 
 .contact-button {
+  margin-top: 10px;
   border-radius: 50%;
   padding: 10px 25px 10px 25px;
   text-align: center;
@@ -368,7 +368,7 @@ form {
   }
   header h2 {
     font-size: 90%;
-    height: 17px;
+    height: 20px;
   }
   .main-header {
     font-size: 180%;
@@ -377,11 +377,30 @@ form {
     flex: 100%;
     max-width: 100%;
   }
+  .contact-header-text {
+    font-size: 150%;
+  }
+  .contact-text {
+    font-size: 130%;
+    line-height: 30px;
+  }    
+  .social-header {
+    font-size: 130%;
+  }  
+  .social-icons {
+    font-size: 140%;
+    letter-spacing: 2px;
+  }
+  .social-links {
+    max-width: 220px;
+    gap: 30px;
+    padding:15px 0;
+  }
 }
 @media screen and (max-width: 450px) {
   header h2 {
-    font-size: 75%;
-    height: 15px;
+    font-size: 70%;
+    height: 20px;
   }
   .text-hero {
     width: 250px;
@@ -392,22 +411,34 @@ form {
   nav a {
     font-size: 80%;
   }
+  .contact-header-text {
+    font-size: 150%;
+  }
+  .contact-text {
+    font-size: 130%;
+    line-height: 30px;
+  }    
+  .social-header {
+    font-size: 130%;
+  }  
+  .social-icons {
+    font-size: 140%;
+    letter-spacing: 2px;
+  }
+  
 }
 
 @media screen and (max-width: 380px) {
   header h2 {
-    font-size: 60%;
+    font-size: 55%;
     height: 15px;
   }
   .text-hero {
-    width: 245px;
+    width: 235px;
     height: 40px;
-    font-size: 65%;
+    font-size: 60%;
   }
   nav a {
     font-size: 75%;
-  }
-  .contact-header-text {
-    font-size: 150%;
   }
 }
