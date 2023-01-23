@@ -5,6 +5,7 @@
   padding: 0;
   border: none;
   flex-wrap: wrap;
+
 }
 
 body {
@@ -13,7 +14,7 @@ body {
   font-size: 100%;
   color: #000000;
   background-color: #f5e5001c;
-  background-size: auto;
+  flex-wrap: wrap;
 }
 
 h1,
@@ -53,11 +54,6 @@ h3 {
 .align-content-center {
   align-items: flex-end;
   justify-content: center;
-}
-
-.align-self-top {
-  align-self: flex-start;
-  justify-self: center;
 }
 
 .align-bottom-spaced {
@@ -271,7 +267,6 @@ footer div a:hover {
 
 .contact-background {
   background: url("../images/image16.webp") no-repeat center;
-  height:900px;
 }
 
 .contact-header-text {
@@ -290,30 +285,18 @@ footer div a:hover {
   margin: 20px;
 }
 
-.flex-100 {
-  flex: 100%;
-}
-
-.social-links {
-  display: flex;
-  flex-wrap: warp;
-  max-width: 240px;
-  flex-direction: column;
-  gap: 40px;
-  padding: 10px 5px;
-  margin: 15px 5px 5px 5px;
-}
-
 .social-header {
-  font-size: 140%;
+  font-size: 120%;
   line-height: 30px;
   text-shadow: 1px 1px #ff00008f;
 }
 
 .social-icons {
-  padding: 20px;
-  font-size: 180%;
-  color: #000000;
+  font-size: 120%;
+  line-height: 40px;
+  padding-left:30px;
+  padding-top: 5px;
+  color: inherit;
   text-shadow: 1px 1px #5000008f;
 }
 
@@ -322,40 +305,39 @@ footer div a:hover {
 }
 /*--form--*/
 
-.contact-form {
+ form, .social-links{
   display: flex;
-  flex-wrap: warp;
-  flex: auto;
   flex-direction: column;
-}
- 
-form {
-  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
   flex: auto;
-  flex-direction: column;
+  max-width: 300px;
   line-height: 35px;
   letter-spacing: 1px;
   font-weight: 600;
   font-size: 110%;
-  width: 220px;
-  padding: 10px 0 10px 0;
-  margin: 10px 5px 5px 5px
+  padding: 20px 25px 20px 25px;
+  margin: 30px
 }
 .form-message{
   resize: none;
-  height: 60px;
-  width: 200px;
+  height: 80px;
+  width: 300px;
 }
 
 .input-field {
   height:25px;
+  width: 300px;
 }
 
 .monthly-updates{
+  display: flex;
+  flex-direction: column;
   font-size: 90%;
   line-height: 25px;
   text-align: center;
-  margin-top:5px
+  margin-top:10px;
+  padding-left: 30px;
 }
 .contact-button {
   margin-top: 10px;
@@ -370,7 +352,7 @@ form {
 
 /*---media queries---*/
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .gallery-column {
     flex: 48%;
     max-width: 50%;
@@ -402,14 +384,12 @@ form {
   .social-header {
     font-size: 130%;
   }  
+
   .social-icons {
-    font-size: 140%;
-    letter-spacing: 2px;
-  }
-  .social-links {
-    max-width: 220px;
-    gap: 30px;
-    padding:15px 0;
+    font-size: 120%;
+    line-height: 35px;
+    padding-left: 30px;
+    padding-top: 5px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -434,13 +414,27 @@ form {
     line-height: 30px;
   }    
   .social-header {
-    font-size: 130%;
+    font-size: 120%;
+  }
+  form, .social-links{
+    max-width: 200px;
   }  
-  .social-icons {
-    font-size: 140%;
-    letter-spacing: 2px;
+  .form-message{
+    width: 200px;
   }
   
+  .input-field {
+    width: 200px;
+  }  
+  .monthly-updates{
+    padding-left: 0px;
+  }
+  .social-icons {
+    font-size: 110%;
+    line-height: 25px;
+    padding-left: 15px;
+    padding-top: 5px;
+  }
 }
 
 @media screen and (max-width: 380px) {
@@ -455,5 +449,22 @@ form {
   }
   nav a {
     font-size: 75%;
+  }
+  form,.social-links{
+    max-width: 180px;
+  }  
+  .form-message{
+    width: 180px;
+  }
+  
+  .input-field {
+    width: 180px;
+  }  
+  
+  .social-icons {
+    font-size: 100%;
+    line-height: 15px;
+    padding-left:15px;
+    padding-top: 5px;
   }
 }
