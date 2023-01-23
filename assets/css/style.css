@@ -270,7 +270,7 @@ footer div a:hover {
 }
 
 .contact-header-text {
-  margin-top: 25px;
+  margin-top: 60px;
   padding: 5px;
   text-shadow: 1px 1px #ff0000;
   text-rendering: auto;
@@ -282,7 +282,7 @@ footer div a:hover {
   line-height: 35px;
   max-width: 700px;
   padding: 5px 10px;
-  margin: 20px;
+  margin: 100px 0 50px 0;
 }
 
 .social-header {
@@ -317,7 +317,7 @@ footer div a:hover {
   font-weight: 600;
   font-size: 110%;
   padding: 20px 25px 20px 25px;
-  margin: 30px
+  margin: 50px 0;
 }
 .form-message{
   resize: none;
@@ -357,6 +357,9 @@ footer div a:hover {
     flex: 48%;
     max-width: 50%;
   }
+  .contact-text {
+    max-width: 550px;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -380,6 +383,7 @@ footer div a:hover {
   .contact-text {
     font-size: 130%;
     line-height: 30px;
+    max-width: 420px;
   }    
   .social-header {
     font-size: 130%;
@@ -412,6 +416,7 @@ footer div a:hover {
   .contact-text {
     font-size: 130%;
     line-height: 30px;
+    max-width: 330px;
   }    
   .social-header {
     font-size: 120%;
@@ -467,4 +472,9 @@ footer div a:hover {
     padding-left:15px;
     padding-top: 5px;
   }
+  .contact-text {
+    font-size: 130%;
+    line-height: 30px;
+    max-width: 230px;
+  } 
 }
