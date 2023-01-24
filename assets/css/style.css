@@ -256,27 +256,85 @@ hr {
   margin-top: 8px;
   vertical-align: middle;
 }
+
 .gallery-img {
   width: 100%;
 }
+
 /*------gallery end----*/
 
 /*------events page-----*/
- .events-box{
+.events-box{
   flex: 30%;
   max-width: 350px;
-  padding: 0 4px;
+  padding: 10px;
   gap:10px;
-  height: 200px;
   margin:20px;
   border:1px solid #000000;
  }
- .gallery-row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+
+.events-header{
+  font-size: 130%;
+  text-shadow: 1px 1px #d40000;
+  margin: 40px;
 }
 
+.event-text h2 a{
+  text-decoration: none;
+  font-size: 100%;
+  color: #000000;
+}
+
+.event-text, .event-text p a{
+  font-size: 120%;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  line-height: 25px;
+}
+
+.events-box{
+  padding: 10px;
+  gap:10px;
+  margin:20px;
+  border:1px solid #000000;
+}
+
+.events-box, .past-events-box{
+  flex: 30%;
+  max-width: 350px;
+}
+
+.past-events-header{
+  font-size: 130%;
+  text-shadow: 1px 1px #d40000;
+  margin: 20px;
+}
+
+.past-events-box{
+  height: 70px;
+  gap:10px;
+  margin:20px;
+  border:1px solid #000000;
+}
+
+.past-event-text{
+  font-size: 110;
+  text-align: center;
+}
+
+.past-event-text h2 a{
+  text-decoration: none;
+  font-size: 80%;
+  color: #000000;
+}
+
+.past-event-text h2 a:hover,
+.event-text p a:hover{
+  animation-duration: 4s;
+  animation-name: nav-button;
+  
+}
 /*-----events page end----*/
 /*-------contact page-------*/
 
@@ -332,6 +390,7 @@ hr {
   padding: 20px 25px 20px 25px;
   margin: 30px 0;
 }
+
 .form-message{
   resize: none;
   height: 80px;
@@ -350,6 +409,7 @@ hr {
   margin-top:10px;
   padding-left: 30px;
 }
+
 .contact-button {
   margin-top: 10px;
   border-radius: 50%;
@@ -365,13 +425,19 @@ hr {
 
 /*---media queries---*/
 
-@media (max-width: 850px) {
+@media screen and (max-width: 850px) {
   .gallery-column {
     flex: 48%;
     max-width: 50%;
   }
   .contact-text {
     max-width: 550px;
+}
+}
+
+@media screen and (max-width:800px){
+.events-box{
+  min-height: 200px;
 }
 }
 
@@ -412,6 +478,7 @@ hr {
     flex: 100%;
    }
 }
+
 @media screen and (max-width: 450px) {
   header h2 {
     font-size: 70%;
