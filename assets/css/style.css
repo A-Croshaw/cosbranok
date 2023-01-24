@@ -85,7 +85,6 @@ form, .main-content, .social-links, .monthly-updates, .hh{
 @keyframes nav-button {
   to {
     color: #d40000;
-    font-size: 90%;
   }
 }
 
@@ -132,8 +131,7 @@ nav a {
 nav a:hover {
   border-bottom: 1px solid #d40000;
   animation-name: nav-button;
-  animation-duration: 1s;
-  animation-fill-mode: backwards;
+  animation-duration: 4s;
 }
 
 .active {
@@ -264,7 +262,20 @@ hr {
 /*------gallery end----*/
 
 /*------events page-----*/
-
+ .events-box{
+  flex: 30%;
+  max-width: 350px;
+  padding: 0 4px;
+  gap:10px;
+  height: 200px;
+  margin:20px;
+  border:1px solid #000000;
+ }
+ .gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
 /*-----events page end----*/
 /*-------contact page-------*/
@@ -397,6 +408,9 @@ hr {
     padding-left: 30px;
     padding-top: 5px;
   }
+  .events-box{
+    flex: 100%;
+   }
 }
 @media screen and (max-width: 450px) {
   header h2 {
