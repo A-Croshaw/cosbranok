@@ -24,7 +24,6 @@ h3 {
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  font-size: 110%;
   letter-spacing: 3px;
 }
 .image-hero p,
@@ -208,7 +207,7 @@ footer div a:hover {
 
 .main-header {
   padding-top: 25px;
-  text-shadow: 1px 1px #ff0000;
+  text-shadow: 2px 2px #ff0000;
   text-rendering: auto;
   font-size: 150%;
 }
@@ -261,8 +260,8 @@ hr {
 }
 
 .gallery-column {
-  flex: 23%;
-  max-width: 25%;
+  flex: 100%;
+  max-width: 100%;
   padding: 0 4px;
 }
 
@@ -279,9 +278,9 @@ hr {
 
 /*------events page-----*/
 
-.events-header{
-  font-size: 130%;
-  text-shadow: 1px 1px #d40000;
+.events-header, .gallery-header{
+  font-size: 160%;
+  text-shadow: 2px 2px #d40000;
   margin: 40px;
 }
 
@@ -350,10 +349,10 @@ hr {
   background: url("../images/image16.webp") center;
 }
 
-.contact-header-text {
+.contact-header-text{
   margin: 60px 10px;
   padding: 5px;
-  text-shadow: 1px 1px #ff0000;
+  text-shadow: 2px 2px #ff0000;
 }
 .contact-header-text h2{
     font-size: 130%;
@@ -457,7 +456,11 @@ hr {
       padding: 5px;
     }
   .contact-header-text h2{
-        font-size: 200%;
+      font-size: 200%;
+    }
+  .gallery-column {
+      flex: 48%;
+      max-width: 50%;
     }
 }
 
@@ -506,7 +509,13 @@ hr {
     font-size: 120%;
     padding-left:30px;
   }
+}
 
+@media screen and (min-width:700px){
+  .gallery-column {
+    flex: 23%;
+    max-width: 25%;
+  }
 }
 /*----
 @media screen and (max-width: 850px) {
