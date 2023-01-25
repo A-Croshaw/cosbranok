@@ -81,6 +81,7 @@ form, .main-content, .social-links, .monthly-updates, .hh{
 
 .logo {
   height: 30px;
+  width: 30px;
   border-radius: 50%;
 }
 
@@ -151,6 +152,7 @@ footer {
 }
 .footer-logo {
   height: 30px;
+  width: 30px;
   border-radius: 50%;
 }
 
