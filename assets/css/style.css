@@ -347,23 +347,23 @@ hr {
 /*-------contact page-------*/
 
 .contact-background {
-  background: url("../images/image16.webp") no-repeat center;
+  background: url("../images/image16.webp") center;
 }
 
 .contact-header-text {
-  margin-top: 60px;
+  margin: 60px 10px;
   padding: 5px;
   text-shadow: 1px 1px #ff0000;
-  text-rendering: auto;
-  font-size: 200%;
 }
-
+.contact-header-text h2{
+    font-size: 130%;
+}
 .contact-text {
-  font-size: 150%;
-  line-height: 35px;
-  max-width: 700px;
+  font-size: 130%;
+  line-height: 30px;
+  min-width: 230px;
   padding: 5px 10px;
-  margin: 80px 0 50px 0;
+  margin: 40px 10px 50px 10px;
 }
 
 .social-header {
@@ -373,9 +373,9 @@ hr {
 }
 
 .social-icons {
-  font-size: 120%;
+  font-size: 110%;
   line-height: 40px;
-  padding-left:30px;
+  padding-left:15px;
   padding-top: 5px;
   color: inherit;
   text-shadow: 1px 1px #5000008f;
@@ -390,7 +390,7 @@ hr {
   align-items: flex-start;
   flex-wrap: wrap;
   flex: auto;
-  max-width: 300px;
+  max-width: 200px;
   line-height: 35px;
   letter-spacing: 1px;
   font-weight: 600;
@@ -402,12 +402,12 @@ hr {
 .form-message{
   resize: none;
   height: 80px;
-  width: 300px;
+  width: 200px;
 }
 
 .input-field {
   height:25px;
-  width: 300px;
+  width: 200px;
 }
 
 .monthly-updates{
@@ -415,7 +415,6 @@ hr {
   line-height: 25px;
   text-align: center;
   margin-top:10px;
-  padding-left: 30px;
 }
 
 .contact-button {
@@ -457,6 +456,9 @@ hr {
       max-width: 330px;
       padding: 5px;
     }
+  .contact-header-text h2{
+        font-size: 200%;
+    }
 }
 
  @media screen and (min-width: 600px) {
@@ -478,6 +480,33 @@ hr {
       max-width: 370px;
       padding: 5px;
     }
+  .contact-header-text h2{
+      font-size: 230%;
+  }
+  .contact-text{
+    font-size: 170%;
+    line-height: 35px;
+
+  }
+  form, .social-links{
+    max-width: 300px;
+  }
+  .form-message, .input-field{
+    width: 300px;
+  }
+  .monthly-updates{
+    padding-left:30px;
+  }
+
+  .social-header {
+    font-size: 140%;
+  }
+  
+  .social-icons {
+    font-size: 120%;
+    padding-left:30px;
+  }
+
 }
 /*----
 @media screen and (max-width: 850px) {
@@ -485,18 +514,11 @@ hr {
     flex: 48%;
     max-width: 50%;
   }
-  .contact-text {
-    max-width: 550px;
-}
-}
 
 @media screen and (max-width: 600px) {
   .gallery-column {
     flex: 100%;
     max-width: 100%;
-  }
-  .contact-header-text {
-    font-size: 150%;
   }
   .contact-text {
     font-size: 130%;
@@ -553,12 +575,6 @@ hr {
 }
 
 @media screen and (max-width: 380px) {
-
-  .text-hero {
-    width: 215px;
-    height: 40px;
-    font-size: 60%;
-  }
 
   form,.social-links{
     max-width: 180px;
