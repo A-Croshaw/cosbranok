@@ -17,6 +17,7 @@ body {
   flex-wrap: wrap;
 }
 
+
 h1,
 h2,
 h3 {
@@ -26,7 +27,7 @@ h3 {
   font-size: 110%;
   letter-spacing: 3px;
 }
-
+.image-hero p,
 a,
 h1,
 h2,
@@ -36,6 +37,10 @@ h3 {
 
 .hf-bg-color {
   background-color: #fcf377ad;
+}
+
+.break{
+  display:block
 }
 
 /*---gerneric flex box---*/
@@ -105,8 +110,10 @@ form, .main-content, .social-links, .monthly-updates, .hh{
   flex: 100%;
 }
 
-header h2 {
-  height: 25px;
+header h1 {
+  font-size: 50%;
+  padding:2px;
+  min-height: 15px;
   width: 100%;
   color: #fff;
 }
@@ -123,7 +130,7 @@ nav ul {
 nav a {
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 90%;
+  font-size: 70%;
   text-decoration: none;
   color: #2b2929;
 }
@@ -185,24 +192,31 @@ footer div a:hover {
 }
 
 .text-hero {
-  width: 330px;
-  height: 55px;
+  margin: 2px;
+  max-width: 200px;
+  font-size:  90%;
+  font-weight: 700;
+  min-height: 30px;
   line-height: 30px;
   text-shadow: 1px 1px #ff00008f;
   background-color: #fcf37788;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  letter-spacing: 3px;
 }
 
 .main-header {
   padding-top: 25px;
   text-shadow: 1px 1px #ff0000;
   text-rendering: auto;
-  font-size: 240%;
+  font-size: 150%;
 }
 
 .main-content {
   padding: 0 30px 0 30px;
   margin-top: 20px;
-  flex: 33%;
+  flex: 100%;
   gap: 10px;
 }
 
@@ -264,14 +278,6 @@ hr {
 /*------gallery end----*/
 
 /*------events page-----*/
-.events-box{
-  flex: 30%;
-  max-width: 350px;
-  padding: 10px;
-  gap:10px;
-  margin:20px;
-  border:1px solid #000000;
- }
 
 .events-header{
   font-size: 130%;
@@ -298,11 +304,13 @@ hr {
   gap:10px;
   margin:20px;
   border:1px solid #000000;
+  min-height: 170px;
 }
 
 .events-box, .past-events-box{
   flex: 30%;
   max-width: 350px;
+  background-color: #fcf377ad
 }
 
 .past-events-header{
@@ -312,7 +320,7 @@ hr {
 }
 
 .past-events-box{
-  height: 70px;
+  min-height: 70px;
   gap:10px;
   margin:20px;
   border:1px solid #000000;
@@ -425,6 +433,53 @@ hr {
 
 /*---media queries---*/
 
+
+@media screen and (min-width: 280px) {
+    
+  header h1 {
+      font-size: 60%;
+    }
+}
+  
+@media screen and (min-width: 400px) {
+      
+  header h1 {
+      font-size: 80%;
+    }
+  .main-header{
+      font-size: 180%;
+    }
+  nav a {
+      font-size: 80%;
+    }
+  .text-hero {
+      font-size:120%;
+      max-width: 330px;
+      padding: 5px;
+    }
+}
+
+ @media screen and (min-width: 600px) {
+      
+  header h1 {
+      font-size: 100%;
+    }
+  .main-header{
+      font-size: 230%;
+    }
+  .main-content {
+      flex: 33%;
+    }
+  nav a {
+      font-size: 90%;
+    }
+  .text-hero {
+      font-size: 140%;
+      max-width: 370px;
+      padding: 5px;
+    }
+}
+/*----
 @media screen and (max-width: 850px) {
   .gallery-column {
     flex: 48%;
@@ -435,23 +490,7 @@ hr {
 }
 }
 
-@media screen and (max-width:800px){
-.events-box{
-  min-height: 200px;
-}
-}
-
 @media screen and (max-width: 600px) {
-  .main-content {
-    flex: 100%;
-  }
-  header h2 {
-    font-size: 90%;
-    height: 20px;
-  }
-  .main-header {
-    font-size: 180%;
-  }
   .gallery-column {
     flex: 100%;
     max-width: 100%;
@@ -474,25 +513,13 @@ hr {
     padding-left: 30px;
     padding-top: 5px;
   }
-  .events-box{
+  .past-events-box, .events-box{
     flex: 100%;
    }
 }
 
 @media screen and (max-width: 450px) {
-  header h2 {
-    font-size: 70%;
-    height: 20px;
-  }
-  .text-hero {
-    width: 250px;
-    height: 40px;
-    line-height: 19px;
-    font-size: 80%;
-  }
-  nav a {
-    font-size: 80%;
-  }
+
   .contact-header-text {
     font-size: 150%;
   }
@@ -526,18 +553,13 @@ hr {
 }
 
 @media screen and (max-width: 380px) {
-  header h2 {
-    font-size: 55%;
-    height: 15px;
-  }
+
   .text-hero {
     width: 215px;
     height: 40px;
     font-size: 60%;
   }
-  nav a {
-    font-size: 75%;
-  }
+
   form,.social-links{
     max-width: 180px;
   }  
@@ -561,3 +583,4 @@ hr {
     max-width: 230px;
   } 
 }
+----*/
