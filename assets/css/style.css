@@ -46,6 +46,17 @@ h3 {
   display:block
 }
 
+.events-header, 
+.text-hero, 
+.main-header, 
+.main-text h3, 
+.past-events-header, 
+.events-main-header, 
+.gallery-header 
+.contact-header-text, 
+.social-header{
+  text-shadow: 1px 1px #d40000;
+}
 /*---gerneric flex box---*/
 
 .box {
@@ -75,14 +86,6 @@ form, .main-content, .social-links, .monthly-updates, .hh{
 
 /*---logo---*/
 
-.logo-left {
-  margin-left: auto;
-}
-
-.logo-right {
-  margin-right: auto;
-}
-
 .logo {
   height: 30px;
   width: 30px;
@@ -108,14 +111,14 @@ form, .main-content, .social-links, .monthly-updates, .hh{
 
 /*---Header section---*/
 
-.header1 {
+.top-page-header {
   padding-top: 5px;
   background-color: #000000;
   flex: 100%;
 }
 
-header h1 {
-  font-size: 50%;
+.top-page-header h1 {
+  font-size: 55%;
   padding:2px;
   min-height: 15px;
   width: 100%;
@@ -153,11 +156,6 @@ nav a:hover {
 
 footer {
   margin-top: 10px;
-}
-.footer-logo {
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
 }
 
 footer div {
@@ -203,7 +201,6 @@ footer div a:hover {
   font-weight: 700;
   min-height: 30px;
   line-height: 30px;
-  text-shadow: 1px 1px #ff00008f;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
@@ -217,10 +214,13 @@ footer div a:hover {
  }
 
 .main-header {
-  padding-top: 25px;
-  text-shadow: 2px 2px #ff0000;
-  text-rendering: auto;
+  padding: 5px;
+  margin: 24px 10px;
+}
+
+.main-header h2{
   font-size: 130%;
+  padding: 5px;
 }
 
 .main-content {
@@ -245,7 +245,6 @@ hr {
 
 .main-text h3 {
   font-size: 130%;
-  text-shadow: 1px 1px #ff0000;
   padding: 10px;
   line-height: 45px;
 }
@@ -291,7 +290,6 @@ hr {
 
 .events-main-header, .gallery-header{
   font-size: 180%;
-  text-shadow: 2px 2px #d40000;
   padding: 10px;
   margin: 40px;
 }
@@ -301,7 +299,6 @@ hr {
 }
 
 .events-header, .past-events-header{
-  text-shadow: 1px 1px #d40000;
   margin: 40px;
   padding: 10px;
 }
@@ -393,7 +390,6 @@ hr {
 .contact-header-text{
   margin: 60px 10px;
   padding: 5px;
-  text-shadow: 2px 2px #ff0000;
 }
 .contact-header-text h2{
     font-size: 130%;
@@ -409,7 +405,6 @@ hr {
 .social-header {
   font-size: 120%;
   line-height: 30px;
-  text-shadow: 1px 1px #ff00008f;
 }
 
 .social-icons {
@@ -472,22 +467,11 @@ hr {
 /*-----contact page end----*/
 
 /*---media queries---*/
-
-
-@media screen and (min-width: 280px) {
-    
-  header h1 {
-      font-size: 60%;
-    }
-}
   
 @media screen and (min-width: 400px) {
       
-  header h1 {
+  .top-page-header h1 {
       font-size: 80%;
-    }
-  .main-header{
-      font-size: 180%;
     }
   nav a {
       font-size: 80%;
@@ -497,7 +481,7 @@ hr {
       max-width: 330px;
       padding: 5px;
     }
-  .contact-header-text h2{
+  .contact-header-text h2, .main-header h2{
       font-size: 200%;
     }
   .gallery-column {
@@ -508,11 +492,8 @@ hr {
 
  @media screen and (min-width: 600px) {
       
-  header h1 {
+  .top-page-header h1 {
       font-size: 100%;
-    }
-  .main-header{
-      font-size: 230%;
     }
   .main-content {
       flex: 33%;
@@ -525,7 +506,7 @@ hr {
       max-width: 370px;
       padding: 5px;
     }
-  .contact-header-text h2{
+  .contact-header-text h2, .main-header h2{
       font-size: 230%;
   }
   .contact-text{
