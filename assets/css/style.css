@@ -18,8 +18,10 @@ body {
 }
 
 .rounded-corners{
- border-radius: 10%;
-}
+  border-radius: 15px;
+  background-color: #fcf37788;
+  padding: 10px;
+ }
 
 h1,
 h2,
@@ -206,12 +208,6 @@ footer div a:hover {
   color: #000000;
   letter-spacing: 3px;
 }
-
- .rounded-corners{
-  border-radius: 15px;
-  background-color: #fcf37788;
-  padding: 10px;
- }
 
 .main-header {
   padding: 5px;
@@ -439,18 +435,22 @@ hr {
   resize: none;
   height: 80px;
   width: 200px;
+  padding: 2px;
+  border-radius: 0 10px 10px 10px;
+  margin: 5px;
 }
 
 .input-field {
-  height:25px;
+  height: 25px;
   width: 200px;
+  border-radius: 5px;
 }
 
 .monthly-updates{
   font-size: 90%;
   line-height: 25px;
   text-align: center;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
 .contact-button {
