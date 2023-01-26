@@ -17,6 +17,9 @@ body {
   flex-wrap: wrap;
 }
 
+.rounded-corners{
+ border-radius: 10%;
+}
 
 h1,
 h2,
@@ -26,6 +29,7 @@ h3 {
   color: #000000;
   letter-spacing: 3px;
 }
+
 .image-hero p,
 a,
 h1,
@@ -200,18 +204,23 @@ footer div a:hover {
   min-height: 30px;
   line-height: 30px;
   text-shadow: 1px 1px #ff00008f;
-  background-color: #fcf37788;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
   letter-spacing: 3px;
 }
 
+ .rounded-corners{
+  border-radius: 15px;
+  background-color: #fcf37788;
+  padding: 10px;
+ }
+
 .main-header {
   padding-top: 25px;
   text-shadow: 2px 2px #ff0000;
   text-rendering: auto;
-  font-size: 150%;
+  font-size: 130%;
 }
 
 .main-content {
@@ -283,6 +292,7 @@ hr {
 .events-main-header, .gallery-header{
   font-size: 180%;
   text-shadow: 2px 2px #d40000;
+  padding: 10px;
   margin: 40px;
 }
 
@@ -293,6 +303,7 @@ hr {
 .events-header, .past-events-header{
   text-shadow: 1px 1px #d40000;
   margin: 40px;
+  padding: 10px;
 }
 
 .event-top-text, .events-header, .past-events-header{
@@ -322,9 +333,9 @@ hr {
 }
 
 .events-box{
-  padding: 10px;
+  padding: 40px 50px;
   gap:10px;
-  margin:10px;
+  margin:5px;
   border:1px solid #000000;
   min-height: 170px;
 }
@@ -332,7 +343,8 @@ hr {
 .events-box, 
 .past-events-box{
   flex: 100%;
-  max-width: 350px;
+  max-width: 280px;
+  border-radius: 0 150px 150px 150px;
 }
 
 .events-box, 
@@ -351,6 +363,7 @@ hr {
   gap:10px;
   margin:10px;
   border:1px solid #000000;
+  padding: 15px 30px;
 }
 
 .past-event-text{
@@ -424,6 +437,7 @@ hr {
   font-size: 110%;
   padding: 20px 25px 20px 25px;
   margin: 30px 0;
+  border-radius: 15px;
 }
 
 .form-message{
