@@ -326,10 +326,10 @@ hr {
 }
 
 .events-box{
-  padding: 40px 50px;
-  gap:10px;
-  margin:5px;
-  border:1px solid #000000;
+  padding: 45px 30px;
+  gap: 10px;
+  margin: 15px;
+  border: 1px solid #000000;
   min-height: 210px;
 }
 
@@ -337,7 +337,7 @@ hr {
 .past-events-box{
   flex: 100%;
   max-width: 280px;
-  border-radius: 0 150px 150px 150px;
+  border-radius: 0 120px 120px 120px;
 }
 
 .events-box, 
@@ -467,7 +467,12 @@ hr {
 /*-----contact page end----*/
 
 /*---media queries---*/
-  
+  @media screen and (max-width: 300px){
+    .events-box{
+      max-width: 190px;
+      font-size: 90%;
+    }
+  }
 @media screen and (min-width: 400px) {
       
   .top-page-header h1 {
