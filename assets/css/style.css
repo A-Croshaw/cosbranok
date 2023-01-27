@@ -19,7 +19,6 @@ body {
 
 .rounded-corners{
   border-radius: 15px;
-  background-color: #fcf37788;
   padding: 10px;
  }
 
@@ -40,12 +39,21 @@ h3 {
   font-family: Prata, sans-serif;
 }
 
+.break{
+  display:block
+}
+
+/*---colors---*/
+
+.rounded-corners,
+.events-box, 
+.past-events-box,
 .hf-bg-color {
   background-color: #fcf377ad;
 }
 
-.break{
-  display:block
+.social-links, form{
+  background-color: #fcf377ce;
 }
 
 .events-header, 
@@ -299,9 +307,6 @@ hr {
   padding: 10px;
 }
 
-.event-top-text, .events-header, .past-events-header{
-  background-color: #fcf377ad;
-}
 .event-top-text {
   font-size: 130%;
   text-align: center;
@@ -338,12 +343,6 @@ hr {
   flex: 100%;
   max-width: 280px;
   border-radius: 0 120px 120px 120px;
-}
-
-.events-box, 
-.past-events-box,
-.events-main-header{
-  background-color: #fcf377ad
 }
 
 .past-events-header{
@@ -412,9 +411,6 @@ hr {
   text-shadow: 1px 1px #5000008f;
 }
 
-.social-links, .contact-header-text, .contact-text, form{
-  background-color: #fcf377ce;
-}
 /*--form--*/
 
  form, .social-links{
