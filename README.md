@@ -27,12 +27,15 @@ The image is used on these to pages because there are larger gaps between the co
 
 ## _2 - The Navigation Bar_
 
-    * The Navigation bar is situated below a header that has a black background and white text and these are placed at the top of the page acroos all of the sites pages. 
+    * There is a header that has a black background and white text. 
+    * the navigation bar is placed at the top of the site pages. 
     * The navigation bar remains in the same place across all screen sizes.
     * There is a logo placed on the left and right ends of the navigation bar.
     * there is a hover over feature that changes the text colour to red over 4 seconds. 
     * Finally, there is a red line that indicate the current page the user is veiwing.
-The backgound colour is `#0969DA` to keep in line with the suttle colours that are through out.
+
+The backgound colour is (`#fcf377ad`) to keep in line with the suttle colours that are through out.
+
 ![Navigation Bar](documents/readme-images/navigation.png)
 
 ## _3 - The Footer_
@@ -40,7 +43,7 @@ The backgound colour is `#0969DA` to keep in line with the suttle colours that a
     * The footer consists of two socail media links ont to facebook and the other to instagram.
     * A logo on the left and right ends.
 
-The backgound colour is the same as the header `#0969DA` to keep in line with the suttle colours that are throughout.
+The backgound colour (`#fcf377ad`) is the same as the header to keep in line with the suttle colours that are throughout.
 
 ![Footer](documents/readme-images/footer.png)
 
