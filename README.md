@@ -1,8 +1,12 @@
 # _Cosbranok Re-enactment Society_
 
 This is a featured website publication to represent the Cosbranok Re-enactment Society in Co.Kerry, Ireland. 
-This website is to provide information about Cosbranok and what they do as a re-enactment society using a mixture of written content and pictures. It also displays dates and times of shows they attend throughout the year to allow people to be able to them firsthand.
-With a contact form to allow people to enquire about more in-depth information, or for the purpose to be able to become a member of their society.
+
+This website is to provide information about Cosbranok and what they do as a re-enactment society using a mixture of written content and pictures. 
+
+It also displays dates and times of shows they attend throughout the year to allow people to be able to them firsthand.
+
+Finally With a contact form which allows the people to enquire about more in-depth information, or for the purpose to enquire about becoming a member of Cosbranok.
 
 ![Mock-up-Image](documents/readme-images/mockup1.png)
 [__Click here to view published site__](https://a-croshaw.github.io/cosbranok/)
@@ -15,7 +19,7 @@ These features are across all of the pages, giving a basic structure which gives
 
 ## _1 - The background_
 
-The background for index.html and the gallery.html is a slightly yellow-creamy color `#f5e5001c` this is so the focus can be on the content and for the user to be able to read or see the images.
+The background for index.html and the gallery.html is a slightly yellow-creamy color `#f5e5001c` this is so the focus can be on the content and for the user to be able to read the content or look at the images with ease
 
 There is an image for the background for the events.html and contact.html 
 
