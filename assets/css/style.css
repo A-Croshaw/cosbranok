@@ -485,12 +485,13 @@ hr {
   .contact-header-text h2, .main-header h2{
       font-size: 200%;
     }
-  .gallery-column {
-      flex: 48%;
-      max-width: 50%;
-    }
 }
-
+@media screen and (min-width:450px){
+  .gallery-column {
+    flex: 48%;
+    max-width: 50%;
+  }  
+}
  @media screen and (min-width: 600px) {
       
   .top-page-header h1 {
