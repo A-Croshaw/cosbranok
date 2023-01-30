@@ -57,7 +57,9 @@ These features are across all of the pages, giving a basic structure that gives 
 
 ### _4 - The Footer_
 
- * The footer consists of two socail media links ont to facebook and the other to instagram.
+ * The footer consists of two socail media links one to facebook and the other to instagram
+
+ * There is also the copyright on the right-hand side ot the footer.
 
  * The backgound colour (`#fcf377ad`) is the same as the header to keep in line with the suttle colours that are throughout.
 
