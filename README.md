@@ -218,10 +218,15 @@ These features are across all of the pages, giving a basic structure which gives
 
  * A separate page dedicated to the purpose of traders for events. 
 
- * An educational section with in the site.
+ * An educational section within the site.
 
 # _Design_
-
+*
+*
+*
+*
+*
+*
 # _Bugs and Testing_
 
 ## _Bugs_
@@ -261,10 +266,31 @@ These features are across all of the pages, giving a basic structure which gives
 
 ### _Validation_
 
+* The HTML on all pages passed through the [W3C validator](https://validator.w3.org/) without any errors.
+
+![HTML validation](documents/readme-images/index-validation.png)    ![HTML validation](documents/readme-images/gallery-validation.png)  
+
+![HTML validation](documents/readme-images/events-validation.png)   ![HTML validation](documents/readme-images/contact-validation.png)
+
+* The CSS code passed through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) without any errors.
+
+![CSS validation](documents/readme-images/css-validation.png)
+
 # _Deployment_
+*
+*
+*
+*
 
 # _Credits_
 
 ## _Content and Media_
+*
+*
+*
 
 ## _Code_
+*
+*
+*
+*
