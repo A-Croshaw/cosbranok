@@ -276,21 +276,77 @@ These features are across all of the pages, giving a basic structure which gives
 
 ![CSS validation](documents/readme-images/css-validation.png)
 
+### _Lighthouse Reports_
+
+#### _Desktop_
+
+ * index.html
+
+![Lighthouse Desktop](documents/readme-images/index--L_D.png)
+
+ * gallery.html
+
+![Lighthouse Desktop](documents/readme-images/gallery--L_D.png)
+
+ * events.html
+
+![Lighthouse Desktop](documents/readme-images/events--L_D.png)
+
+ * contact.html
+
+![Lighthouse Desktop](documents/readme-images/contact--L_D.png)
+
+#### _Mobile_
+
+![Lighthouse Mobile](documents/readme-images/index--L_M.png)
+
+ * gallery.html
+
+![Lighthouse Mobile](documents/readme-images/gallery--L_M.png)
+
+ * events.html
+
+![Lighthouse Mobile](documents/readme-images/events--L_M.png)
+
+ * contact.html
+
+![Lighthouse Mobile](documents/readme-images/contact--L_M.png)
+
 # _Deployment_
-*
-*
-*
-*
+
+ * All content that has ben produced from within Gitpod has need uploaded to Githum using "git add", "git commit" and the "it push" commands. 
+
+ * Once the content has been uploaded head over to Github and log it to your account and select the repository to publish.
+
+ * Click on the settings within this repository and scroll down and open the pages section.
+
+ * Under the build and deployment section within pages put the source to display a branch, select the branch to main and the folder to root and hit the save button.
+
+ * then select the visit site button at the top to view the live deployment of the site.
+
+ Visit the live deployment of the site [HERE](https://a-croshaw.github.io/cosbranok/).
 
 # _Credits_
 
 ## _Content and Media_
-*
-*
-*
+
+ * All written content for this site has been provided but the Cosbranok founding members. (Tina Croshaw + Kimberley Croshaw)
+ * All the images have also been provided by the Cosbranok founding members (Tina Croshaw + Kimberley Croshaw)
 
 ## _Code_
-*
-*
-*
-*
+
+ * For the font syles Prata and Slabo are from [Google-Fonts](https://fonts.google.com/).
+ 
+ * The Favicon code and image icon rendering was produced using [favicon.io](https://favicon.io/).
+
+ * The social media icons used are provided by [Font Awesome](https://fontawesome.com/).
+ 
+ * The use of the [Love-Running](https://github.com/A-Croshaw/love-running) project for refrences to the hero image and form.
+
+ * For the understanding and coding of flexbox [W3Schools](https://www.w3schools.com/css/css3_flexbox.asp) was used.
+
+ * The gallery was based around this example from [W3Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_image_gallery).
+
+ * For the understanding and css code for aligning flexbox [flexboxfroggy](https://flexboxfroggy.com/) was used.
+
+ * To create the screen mockup i used [techsini.com](https://techsini.com/multi-mockup/index.php).
