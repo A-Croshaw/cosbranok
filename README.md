@@ -246,9 +246,18 @@ These features are across all of the pages, giving a basic structure which gives
  
  * None of the content overlaps when screen size reduces.
 
- * The responsiveness of the site is from 280px (only by testing in chrome developer from this size).
+ * The responsiveness of the site is from 280px (only by testing in chrome developer at this size).
 
 ### _Accessibility_
+
+ * All page had their accessibilty check using [Wave](https://wave.webaim.org/)
+ * Index.html has one alert for the missing audio transcript.
+ * All other pages and areas passed the accessibility tests.
+    * All links have proper aria lables.
+    * All images have proper alt tags and none are the same.
+    * There is no conflicts with the constrast of colours.
+
+![404 Image](documents/readme-images/index-wave.png)    ![404 Image](documents/readme-images/gallery-wave.png)  ![404 Image](documents/readme-images/events-wave.png)   ![404 Image](documents/readme-images/contact-wave.png)
 
 ### _Validation_
 
