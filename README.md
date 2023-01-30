@@ -15,7 +15,7 @@ Finally With a contact form which allows the people to enquire about more in-dep
 
 ## _Elements on all pages_
 
-These features are across all of the pages, giving a basic structure which gives the user a more pleasent experience and they are able to easly navigate throught out the website.
+These features are across all of the pages, giving a basic structure that gives the user a more pleasant experience and they are able to easly navigate throught out the website.
 
 ### _1 - The background_
 
@@ -58,8 +58,6 @@ These features are across all of the pages, giving a basic structure which gives
 ### _4 - The Footer_
 
  * The footer consists of two socail media links ont to facebook and the other to instagram.
-
- * On the left and right at both ends of the footer is the cosbranok Logo.
 
  * The backgound colour (`#fcf377ad`) is the same as the header to keep in line with the suttle colours that are throughout.
 
@@ -214,6 +212,8 @@ These features are across all of the pages, giving a basic structure which gives
 
 ## _Features to be Implemented_
 
+ * Add a transcript to the video on index.html.
+
  * A separate page dedicated to the purpose of users becoming a member of the Cosbranok re-enactment Society.
 
  * A separate page dedicated to the purpose of traders for events. 
@@ -221,17 +221,61 @@ These features are across all of the pages, giving a basic structure which gives
  * An educational section within the site.
 
 # _Design_
-*
-*
-*
-*
-*
-*
+ 
+ The idea was to have a light and soft finish tho the site hence the use of the soft yellow and cream colours.
+
+## _Index Page_
+
+ * Index page is set up to block the text so it did not have so much writen content in one area at one time even when it gets pushed down to one column for mobile screens. 
+ 
+ * With a narrow hero image at the top of the screen to catch the users eye.
+
+ * With an image and a video giving it more visual aspects to the page.
+
+ ![Index](documents/readme-images/index.png)
+
+## _Gallery Page_
+ 
+ * The Gallery page will have a header. 
+ 
+ * Followed by four columns of pictures.
+ 
+ * At a medium size screen the screen will show a two column design.
+ 
+ * At mobile screen size the screen will show a single column design.
+ 
+ ![Gallery](documents/readme-images/gallery.png)
+
+## _Events Page_
+
+ * The events and past events sections on the page will have three column design.
+ 
+ * At a medium size screen the screen will show a two column design.
+ 
+ * At mobile screen size the screen will show a single column design.
+
+ * headers breaking up the upcoming events and past events
+
+ * External links to event websites and loctions shown on google maps.
+
+ ![Events](documents/readme-images/events.png)
+
+ ## _Contact Page_
+
+ * Will have a contact form for point of contact.
+
+ * Social media links.
+
+ * simple page layout with minimal content.
+
+ ![Contact](documents/readme-images/contacts.png)
+ 
+
 # _Bugs and Testing_
 
 ## _Bugs_
 
- * Enquiries form message box is slightly to the left. 
+ * There are no known bugs within the site after testing on multiple devises.
 
 ## _Testing_
 
@@ -314,7 +358,7 @@ These features are across all of the pages, giving a basic structure which gives
 
 # _Deployment_
 
- * All content that has ben produced from within Gitpod has need uploaded to Githum using "git add", "git commit" and the "it push" commands. 
+ * All content that has been produced from within Gitpod has need uploaded to Githum using "git add", "git commit" and the "it push" commands. 
 
  * Once the content has been uploaded head over to Github and log it to your account and select the repository to publish.
 
@@ -330,8 +374,8 @@ These features are across all of the pages, giving a basic structure which gives
 
 ## _Content and Media_
 
- * All written content for this site has been provided but the Cosbranok founding members. (Tina Croshaw + Kimberley Croshaw)
- * All the images have also been provided by the Cosbranok founding members (Tina Croshaw + Kimberley Croshaw)
+ * All written content for this site has been provided but the [Cosbranok](https://www.facebook.com/Cosbranok) founding members. (Tina Croshaw + Kimberley Croshaw)
+ * All the images have also been provided by the [Cosbranok](https://www.facebook.com/Cosbranok) founding members (Tina Croshaw + Kimberley Croshaw)
 
 ## _Code_
 
