@@ -329,6 +329,8 @@ These features are across all of the pages, giving a basic structure that gives 
 
 ![HTML validation](documents/readme-images/events-validation.png)   ![HTML validation](documents/readme-images/contact-validation.png)
 
+![HTML validation](documents/readme-images/thankyou-validation.png)   ![HTML validation](documents/readme-images/404-validation.png)
+
 * The CSS code passed through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) without any errors.
 
 ![CSS validation](documents/readme-images/css-validation.png)
