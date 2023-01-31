@@ -1,4 +1,37 @@
 # _Cosbranok Re-enactment Society_
+1. [Features](#features)
+    1. [Elements on all pages](#elements-on-all-pages)
+        1. [The background](#1---the-background)
+        2. [Page Header and Navigation Bar](#2---page-header-and-navigation-bar)
+        3. [The Headers](#3---the-headers)
+        4. [The Footer](#4---the-footer)
+        5. [Favicon](#5---favicon)
+    2. [The Landing Page](#the-landing-page)
+        1. [Landing Page Image](#landing-page-image)
+        2. [The Main Content](#the-main-content)
+    3. [The Gallery Page](#the-gallery-page)
+    4. [The Events Page](#the-events-page)
+    5. [The Contact Page](#the-contact-page)
+    6. [Thank You Page](#thank-you-page)
+    7. [404 Page](#404-page)
+    8. [Implemented Features](#implemented-features)
+    9. [Features to be Implemented](#features-to-be-implemented)
+2. [Design](#design)
+    1. [Index Page](#index-page)
+    2. [Gallery Page](#gallery-page)
+    3. [Events Page](#events-page)
+    4. [Contact Page](#contact-page)
+3. []()
+
+
+
+[The-Gallery-Page](#The Gallery Page)
+[The-Events-Page](The Events Page)
+[The-Contact-Page](#The Contact Page)
+[Thank-You-Page](#Thank You Page)
+[404-page](#404 page)
+[Implemented-Features](#Implemented Features)
+[Features-to-be-Implemented](#Features to be Implemented)
 
 This is a featured website publication to represent the Cosbranok Re-enactment Society in Co.Kerry, Ireland. 
 
@@ -282,7 +315,7 @@ These features are across all of the pages, giving a basic structure that gives 
  ![Contact](documents/readme-images/contacts.png)
  
 
-# _Bugs and Testing_
+# _Bugs, Testing, and Validation_
 
 ## _Bugs_
 
@@ -298,8 +331,6 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * The site has been fully tested using google developer on all screen sizes from 280px and up.
 
- * All links worked correctly across all devices.
-
  * The site is fully responsive across all the devices with the screens vertically and horizontally.
 
  * There are no horizontal scrolls when tested across these devices.
@@ -309,6 +340,14 @@ These features are across all of the pages, giving a basic structure that gives 
  * None of the content overlaps when screen size reduces.
 
 ![Testing](documents/readme-images/responsivetests.png)
+
+### _Navigation, External Links, and User Input Testing_
+
+ * These have been tested on Edge, Safari, Chrome, Firefox, and Opera
+
+ * Devices these have been tested on are Samsung 22 + 10 lite, Iphone 11 + 13, PC, and Lenovo tablet.
+
+ * All navigation, external links, and user inputs work across all responsive screen sizes and on all tested devices.
 
 ![Testing](documents/readme-images/navtesting.png)
 
