@@ -6,7 +6,7 @@ This website is to provide information about Cosbranok and what they do as a re-
 
 It also displays dates and times of shows they attend throughout the year to allow people to be able to them firsthand.
 
-Finally With a contact form which allows the people to enquire about more in-depth information, or for the purpose to enquire about becoming a member of Cosbranok.
+Finally, a contact form allows people to request more in-depth information, or to enquire about becoming a member of Cosbranok.
 
 ![Mock-up-Image](documents/readme-images/mockup1.png)
 [__Click here to view published site__](https://a-croshaw.github.io/cosbranok/)
@@ -15,7 +15,7 @@ Finally With a contact form which allows the people to enquire about more in-dep
 
 ## _Elements on all pages_
 
-These features are across all of the pages, giving a basic structure that gives the user a more pleasant experience and they are able to easly navigate throught out the website.
+These features are across all of the pages, giving a basic structure that gives the user a more pleasant experience and which are able to easly navigate throught out the website.
 
 ### _1 - The background_
 
@@ -23,7 +23,7 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * There is an image for the background for the events.html and contact.html 
 
- * The image is used on these to pages because there are larger gaps between the content, so with the picture it takes away  these areas of block colour and give the user an more exciteble experince.
+ * The image is used on these two pages because there are larger gaps between the content, so with the picture it takes away these areas of block colour and gives the user a more excitable experience.
 
 ![Background-Image](documents/readme-images/image16.webp)
 
@@ -35,7 +35,7 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * The navigation bar remains in the same place across all screen sizes.
 
- * On the left and right at both ends of the navigation bar is the cosbranok Logo.
+ * On the left and right at both ends of the navigation bar is the Cosbranok Logo.
 
  * There is a hover-over feature that changes the text colour to red over 4 seconds. 
 
@@ -70,7 +70,7 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * The favicon icon indicates to the user what the tab is when they have several tabs open.
 
- * The favicon icon used is the cosbranok logo.
+ * The favicon icon used is the Cosbranok logo.
 
 ![Favicon](documents/readme-images/favicon.ico)
 
@@ -80,29 +80,29 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * When the page first loads, the user sees a narrow photograph of living history tents.
 
- * With animation to give an effect that the user is moving closer, this is done but moving the picture forward over a 5 seconds.
+ * With animation to give an effect that the user is moving closer, this is done by moving the picture forward over 5 seconds.
 
  * There is a statement withing the center of the image, That is believed to be true by the founders of cosbranok after there research of current re-enactment societys with in Ireland.
 
- * This statement is in the same style as the main headers, with the same colored background, rounded corners, and the same font style.
+ * This statement is in the same style as the main headers, with the same coloured background, rounded corners, and the same font style.
 
 ![Landing page image](documents/readme-images/landing-image.png)
 
 ### _The Main Content_
 
- * Within the main content you have four headed sections, a photograph and a video.
+ * Within the main content you have four-headed sections, a photograph, and a video.
 
- * The Four sections give details about the origins of the society, who they are and why they do what they do.
+ * The four sections give details about the origins of the society, who they are, and why they do what they do.
 
  * Each of the four sections has its own header in the same style as the main headers, with the same coloured background, rounded box corners and the same font style.
 
  * The photograph used within the main content is the full view of the narrow animated image at the top of the page.
 
- * The video show a few people reenacting what fighting would of been like with fully functional controls.
+ * The video shows a few people reenacting what fighting would of been like with fully functional controls.
 
 ![Landing page image](documents/readme-images/landing-page1.png)
 
- * When viewing the site ona smaller scrren size the right content will move below the left content to become a single coloum allowing each section to fill the sceen to be more readible and user friendly.
+ * When viewing the site on smaller screen sizes, the right content will move below the left content to become a single column allowing each section to fill the screen to be more readable and user-friendly.
 
 ![Landing page image](documents/readme-images/landing-page2.png)
 
@@ -124,7 +124,7 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * This page gives the user details about upcoming and past events with links to external pages opening on new tabs.
 
- * The likes will take the user to the organizer of the event's webpage.
+ * The links will take the user to the organizer of the event's webpage.
 
  * Within the address there is a link to a google map pinpoint location allowing the user to easily locate the event for directions or journey planning.
 
@@ -146,7 +146,7 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * The upcoming event displays, 
     * The name of the event with the external link.
-    * The Date and times of the event.
+    * The date and times of the event.
     * The address of the event, with the external link in the first line.
 
 ![Events Image](documents/readme-images/eventbox1.png)
@@ -157,7 +157,7 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * The upcoming event displays, 
     * The name of the event with the external link.
-    * The Date of when the event was.
+    * The date of when the event was.
 
 ![Events Image](documents/readme-images/eventbox2.png)
 
@@ -165,9 +165,9 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * This page allows users to contact Cosbranok about enquiries.
  
- * The user can enquire about events or any other queries they may have, by filling out the enqiries form.
+ * The user can enquire about events or any other queries they may have, by filling out the enquiries form.
 
- * There are links to the cosbranok's social media accounts so the user can head over to them to make enquiries and find upto date information.
+ * There are links to Cosbranok's social media accounts so the user can head over to them to make enquiries and find upto date information.
 
 ![Contant Image](documents/readme-images/contacts1.png)
 
@@ -207,7 +207,7 @@ These features are across all of the pages, giving a basic structure that gives 
 
 ## _Implemented Features_
  
- * The reposiveness of the site 280px and up.
+ * The responsiveness of the site is 280px and up.
 
  * All external links open up as they should on all devices.
 
@@ -237,11 +237,11 @@ These features are across all of the pages, giving a basic structure that gives 
 
 ## _Index Page_
 
- * Index page is set up to block the text so it did not have so much writen content in one area at one time even when it gets pushed down to one column for mobile screens. 
+ * Index page is set up to block the text so it did not have so much written content in one area at one time even when it gets pushed down to one column for mobile screens. 
  
- * With a narrow hero image at the top of the screen to catch the users eye.
+ * With a narrow hero image at the top of the screen to catch the user's eye.
 
- * With an image and a video giving it more visual aspects to the page.
+ * With an image and a video, giving more visual aspects to the page.
 
  ![Index](documents/readme-images/index.png)
 
@@ -251,9 +251,9 @@ These features are across all of the pages, giving a basic structure that gives 
  
  * Followed by four columns of pictures.
  
- * At a medium size screen the screen will show a two column design.
+ * At a medium size screen the screen will show a two-column design.
  
- * At mobile screen size the screen will show a single column design.
+ * At mobile screen size the screen will show a single-column design.
  
  ![Gallery](documents/readme-images/gallery.png)
 
@@ -261,13 +261,13 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * The events and past events sections on the page will have three column design.
  
- * At a medium size screen the screen will show a two column design.
+ * At a medium size screen the screen will show a two-column design.
  
- * At mobile screen size the screen will show a single column design.
+ * At mobile screen size the screen will show a single-column design.
 
  * Headers breaking up the upcoming events and past events
 
- * External links to event websites and loctions shown on google maps.
+ * External links to event websites and locations shown on google maps.
 
  ![Events](documents/readme-images/events.png)
 
@@ -294,11 +294,13 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * The site has been tested on Edge, Safari, Chrome, Firefox, and Opera.
 
- * Devices the site has been tested range from Samsung 22 + 10 lite, Iphone 11 + 13, PC, and Lenovo tablet.
+ * Devices the site has been tested on are Samsung 22 + 10 lite, Iphone 11 + 13, PC, and Lenovo tablet.
+
+ * The site has been fully tested using google developer on all screen sizes from 280px and up.
 
  * All links worked correctly across all devices.
 
- * The site is fully responsive across all devices with the screens vertically and horizontal.
+ * The site is fully responsive across all the devices with the screens vertically and horizontally.
 
  * There are no horizontal scrolls when tested across these devices.
 
@@ -306,18 +308,24 @@ These features are across all of the pages, giving a basic structure that gives 
  
  * None of the content overlaps when screen size reduces.
 
- * The responsiveness of the site is from 280px (only by testing in chrome developer at this size).
+![Testing](documents/readme-images/responsivetests.png)
+
+![Testing](documents/readme-images/navtesting.png)
+
+![Testing](documents/readme-images/userinputtests.png)
+
+![Testing](documents/readme-images/linktesting.png)
 
 ### _Accessibility_
 
- * All page had their accessibilty check using [Wave](https://wave.webaim.org/)
+ * All page had their accessibility checked using [Wave](https://wave.webaim.org/)
 
  * Index.html has one alert for the missing audio transcript.
 
  * All other pages and areas passed the accessibility tests.
-    * All links have proper aria lables.
+    * All links have proper aria labels.
     * All images have proper alt tags and none are the same.
-    * There is no conflicts with the constrast of colours.
+    * There is no conflicts with the contrast of colours.
 
 ![404 Image](documents/readme-images/index-wave.png)    ![404 Image](documents/readme-images/gallery-wave.png)  ![404 Image](documents/readme-images/events-wave.png)   ![404 Image](documents/readme-images/contact-wave.png)
 
@@ -375,21 +383,21 @@ These features are across all of the pages, giving a basic structure that gives 
 
 ## _Version Control_
 
- * From the Gitpod  terminal using "git add ." allows the changes wait to be commited.
+ * From the Gitpod terminal use "git add ." which tells git you would like to make changes/updates to the files.
 
- * The the "git commit -m "" " with a comment will commit the changes.
+ * Then use "git commit -m " with a comment, this will commit the changes and update the files.
 
- * Then using the "git push" command it will push the commited change to Github.
+ * Then using the "git push" command this will push the committed changes to your GitHub repository.
 
-## _Page Deploymen_
+## _Page Deployment_
 
- * Load up the GitHub website and log it to your account
+ * Load up the GitHub website and log in to your account
  
- * Select and open the repository to be publish.
+ * Select and open the repository to be published.
 
  * Click on the settings within this repository and scroll down and open the pages section.
 
- * Under the build and deployment section within pages put the source to display a branch, select the branch to main and the folder to root and hit the save button.
+ * Under the build and deployment section within pages put the source to display a branch, select the branch to main and the folder to root, and hit the save button.
 
  * Then select the visit site button at the top to view the live deployment of the site.
 
@@ -403,17 +411,17 @@ These features are across all of the pages, giving a basic structure that gives 
 
 ## _Content and Media_
 
- * All written content for this site has been provided but the [Cosbranok](https://www.facebook.com/Cosbranok) founding members. (Tina Croshaw + Kimberley Croshaw)
+ * All written content for this site has been provided by the [Cosbranok](https://www.facebook.com/Cosbranok) founding members. (Tina Croshaw + Kimberley Croshaw)
 
  * All the images have also been provided by the [Cosbranok](https://www.facebook.com/Cosbranok) founding members (Tina Croshaw + Kimberley Croshaw)
 
 ## _Code_
 
- * For the font syles Prata and Slabo are from [Google-Fonts](https://fonts.google.com/).
+ * For the font style's Prata and Slabo, These are from [Google-Fonts](https://fonts.google.com/).
  
  * The Favicon code and image icon rendering was produced using [favicon.io](https://favicon.io/).
 
- * The social media icons used are provided by [Font Awesome](https://fontawesome.com/).
+ * The social media icons used, are provided by [Font Awesome](https://fontawesome.com/).
  
  * The use of the [Love-Running](https://github.com/A-Croshaw/love-running) project for refrences to the hero image and form.
 
