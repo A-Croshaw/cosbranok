@@ -47,13 +47,13 @@ Finally, a contact form allows people to request more in-depth information, or t
         3. [Lighthouse Reports](#lighthouse-reports)
             1. [Desktop](#desktop)
             2. [Mobile](#mobile)
-    5. [Depolyment](#deployment)
-        1. [Version Control](#page-deployment)
-        2. [Page Deployment](#page-deployment)
-        3. [Cloning Repository](#cloning-repository)
-    6. [Credits](#credits)
-        1. [Content and Media](#content-and-media)
-        2. [Code](#code)
+4. [Depolyment](#deployment)
+    1. [Version Control](#page-deployment)
+    2. [Page Deployment](#page-deployment)
+    3. [Cloning Repository](#cloning-repository)
+5. [Credits](#credits)
+    1. [Content and Media](#content-and-media)
+    2. [Code](#code)
 
 # _Features_
 
