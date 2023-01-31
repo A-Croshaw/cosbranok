@@ -21,17 +21,18 @@
     2. [Gallery Page](#gallery-page)
     3. [Events Page](#events-page)
     4. [Contact Page](#contact-page)
-3. []()
+3. [Bugs, Testing, and Validation](#bugs-testing-and-validation)
+    1. [Bugs](#bugs)
+    2. [Testing](#testing)
+        1. [Responsiveness](#responsiveness)
+        2. [Navigation, External Links, and User Input Testing](#navigation-external-links-and-user-input-testing)
+        3. [Accessibility](#accessibility)
 
+        4. [Validation](#validation)
+        5. [Lighthouse Reports](#lighthouse-reports)
+            1. [Desktop](#desktop)
+            2. [Mobile](#mobile)
 
-
-[The-Gallery-Page](#The Gallery Page)
-[The-Events-Page](The Events Page)
-[The-Contact-Page](#The Contact Page)
-[Thank-You-Page](#Thank You Page)
-[404-page](#404 page)
-[Implemented-Features](#Implemented Features)
-[Features-to-be-Implemented](#Features to be Implemented)
 
 This is a featured website publication to represent the Cosbranok Re-enactment Society in Co.Kerry, Ireland. 
 
@@ -355,7 +356,7 @@ These features are across all of the pages, giving a basic structure that gives 
 
 ![Testing](documents/readme-images/linktesting.png)
 
-### _Accessibility_
+## _Accessibility_
 
  * All page had their accessibility checked using [Wave](https://wave.webaim.org/)
 
@@ -368,7 +369,9 @@ These features are across all of the pages, giving a basic structure that gives 
 
 ![404 Image](documents/readme-images/index-wave.png)    ![404 Image](documents/readme-images/gallery-wave.png)  ![404 Image](documents/readme-images/events-wave.png)   ![404 Image](documents/readme-images/contact-wave.png)
 
-### _Validation_
+## _Validation_
+
+### _HTML Validation_
 
 * The HTML on all pages passed through the [W3C validator](https://validator.w3.org/) without any errors.
 
@@ -377,6 +380,8 @@ These features are across all of the pages, giving a basic structure that gives 
 ![HTML validation](documents/readme-images/events-validation.png)   ![HTML validation](documents/readme-images/contact-validation.png)
 
 ![HTML validation](documents/readme-images/thankyou-validation.png)   ![HTML validation](documents/readme-images/404-validation.png)
+
+### _CSS Validation_
 
 * The CSS code passed through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) without any errors.
 
@@ -403,6 +408,8 @@ These features are across all of the pages, giving a basic structure that gives 
 ![Lighthouse Desktop](documents/readme-images/contactdesktop.png)
 
 #### _Mobile_
+
+ * index.html
 
 ![Lighthouse Mobile](documents/readme-images/indexmobile.png)
 
