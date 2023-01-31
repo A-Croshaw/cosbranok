@@ -31,17 +31,17 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * There is a header that has a black background and white text above the navigation bar. 
 
- * the navigation bar is placed at the top of the site pages. 
+ * The navigation bar is placed at the top of the site pages. 
 
  * The navigation bar remains in the same place across all screen sizes.
 
  * On the left and right at both ends of the navigation bar is the cosbranok Logo.
 
- * there is a hover over feature that changes the text colour to red over 4 seconds. 
+ * There is a hover-over feature that changes the text colour to red over 4 seconds. 
 
- * Finally, there is a red line that indicate the current page the user is veiwing.
+ * Finally, there is a red line that indicates the current page the user is viewing.
 
- * The backgound colour is (`#fcf377ad`) to keep in line with the suttle colours that are through out.
+ * The background colour is (`#fcf377ad`) to keep in line with the subtle colours that are through out.
 
 ![Navigation Bar](documents/readme-images/navigation.png)
 
@@ -57,19 +57,20 @@ These features are across all of the pages, giving a basic structure that gives 
 
 ### _4 - The Footer_
 
- * The footer consists of two socail media links one to facebook and the other to instagram
+ * The footer consists of two social media links one to facebook and the other to instagram.
 
  * There is also the copyright on the right-hand side ot the footer.
 
  * The backgound colour (`#fcf377ad`) is the same as the header to keep in line with the suttle colours that are throughout.
-
+ 
+ * This allows the user to go over to the social media pages for more information from anywhere on the website.
 ![Footer](documents/readme-images/footer.png)
 
 ### _5 - Favicon_
 
- * The favicon icon indcates to the user what is within a certain tab on there browser when they have several tabs open.
+ * The favicon icon indicates to the user what the tab is when they have several tabs open.
 
- * the favicon icon used is the cosbranok logo.
+ * The favicon icon used is the cosbranok logo.
 
 ![Favicon](documents/readme-images/favicon.ico)
 
@@ -129,26 +130,30 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * The boxes are styled with the same background colour (`#fcf377ad`) and have three rounded corners.
 
- * when this page is viewed on a desktop the events will appear 3 across the screen.
+ * When this page is viewed on a desktop the events will appear 3 across the screen.
 
 ![Events Image](documents/readme-images/events1.png) 
 
- * when this page is viewed on a tablet the events will appear 2 across the screen.
+ * When this page is viewed on a tablet the events will appear 2 across the screen.
 
- * when this page is viewed on a mobile the events will appear 1 across the screen.
+ * When this page is viewed on a mobile the events will appear 1 across the screen.
 
 ![Events Image](documents/readme-images/events2.png) ![Events Image](documents/readme-images/events3.png) 
 
 ### _Upcoming Events_
 
+ * These are to show the user the upcoming events.
+
  * The upcoming event displays, 
     * The name of the event with the external link.
     * The Date and times of the event.
-    * The address of the event, with the extrenal link in the first line.
+    * The address of the event, with the external link in the first line.
 
 ![Events Image](documents/readme-images/eventbox1.png)
 
 ### _Past Events_
+
+* These are to show the user the past events that they have attended.
 
  * The upcoming event displays, 
     * The name of the event with the external link.
@@ -160,9 +165,9 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * This page allows users to contact Cosbranok about enquiries.
  
- * The user can enquirier about events or any other quiries they may have, by filling out the enqiries form.
+ * The user can enquire about events or any other queries they may have, by filling out the enqiries form.
 
- * The are links to the cosbranok social media accounts so the user can head over to, to make enquiries that way if they wish.
+ * There are links to the cosbranok's social media accounts so the user can head over to them to make enquiries and find upto date information.
 
 ![Contant Image](documents/readme-images/contacts1.png)
 
@@ -172,7 +177,7 @@ These features are across all of the pages, giving a basic structure that gives 
 
 ### _Social Media Links_
 
-![Contact Image](documents/readme-images/contactsf.png)
+![Contact Image](documents/readme-images/contactss.png)
 
 ## _Thank You Page_
 
@@ -184,6 +189,8 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * Also there is a link in the word here within the text that will take the user back to the home page.
 
+ * This is all so the user does not have to use the back button on the browser or type the URL to return to the site.
+
 ![Thank-You Image](documents/readme-images/thankyou.png)
 
 ## _404 Page_
@@ -193,6 +200,8 @@ These features are across all of the pages, giving a basic structure that gives 
  * It consists of the top header and navigation bar with logos so the user can navigate back to the website more easily.
 
  * Also there is a link in the word here within the text that will take the user back to the home page.
+
+ * This is all so the user does not have to use the back button on the browser or type the URL to return to the site.
 
 ![404 Image](documents/readme-images/404page.png)
 
@@ -256,7 +265,7 @@ These features are across all of the pages, giving a basic structure that gives 
  
  * At mobile screen size the screen will show a single column design.
 
- * headers breaking up the upcoming events and past events
+ * Headers breaking up the upcoming events and past events
 
  * External links to event websites and loctions shown on google maps.
 
@@ -268,7 +277,7 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * Social media links.
 
- * simple page layout with minimal content.
+ * Simple page layout with minimal content.
 
  ![Contact](documents/readme-images/contacts.png)
  
@@ -302,7 +311,9 @@ These features are across all of the pages, giving a basic structure that gives 
 ### _Accessibility_
 
  * All page had their accessibilty check using [Wave](https://wave.webaim.org/)
+
  * Index.html has one alert for the missing audio transcript.
+
  * All other pages and areas passed the accessibility tests.
     * All links have proper aria lables.
     * All images have proper alt tags and none are the same.
@@ -328,55 +339,70 @@ These features are across all of the pages, giving a basic structure that gives 
 
  * index.html
 
-![Lighthouse Desktop](documents/readme-images/index--L_D.png)
+![Lighthouse Desktop](documents/readme-images/indexdesktop.png)
 
  * gallery.html
 
-![Lighthouse Desktop](documents/readme-images/gallery--L_D.png)
+![Lighthouse Desktop](documents/readme-images/gallerydesktop.png)
 
  * events.html
 
-![Lighthouse Desktop](documents/readme-images/events--L_D.png)
+![Lighthouse Desktop](documents/readme-images/eventsdesktop.png)
 
  * contact.html
 
-![Lighthouse Desktop](documents/readme-images/contact--L_D.png)
+![Lighthouse Desktop](documents/readme-images/contactdesktop.png)
 
 #### _Mobile_
 
-![Lighthouse Mobile](documents/readme-images/index--L_M.png)
+![Lighthouse Mobile](documents/readme-images/indexmobile.png)
 
  * gallery.html
 
-![Lighthouse Mobile](documents/readme-images/gallery--L_M.png)
+![Lighthouse Mobile](documents/readme-images/gallerymobile.png)
 
  * events.html
 
-![Lighthouse Mobile](documents/readme-images/events--L_M.png)
+![Lighthouse Mobile](documents/readme-images/eventsmobile.png)
 
  * contact.html
 
-![Lighthouse Mobile](documents/readme-images/contact--L_M.png)
+![Lighthouse Mobile](documents/readme-images/contactmobile.png)
 
 # _Deployment_
 
- * All content that has been produced from within Gitpod has need uploaded to Githum using "git add", "git commit" and the "it push" commands. 
+## _Version Control_
 
- * Once the content has been uploaded head over to Github and log it to your account and select the repository to publish.
+ * From the Gitpod  terminal using "git add ." allows the changes wait to be commited.
+
+ * The the "git commit -m "" " with a comment will commit the changes.
+
+ * Then using the "git push" command it will push the commited change to Github.
+
+## _Page Deploymen_
+
+ * Load up the GitHub website and log it to your account
+ 
+ * Select and open the repository to be publish.
 
  * Click on the settings within this repository and scroll down and open the pages section.
 
  * Under the build and deployment section within pages put the source to display a branch, select the branch to main and the folder to root and hit the save button.
 
- * then select the visit site button at the top to view the live deployment of the site.
+ * Then select the visit site button at the top to view the live deployment of the site.
 
  Visit the live deployment of the site [HERE](https://a-croshaw.github.io/cosbranok/).
+
+## _Cloning Repository_
+
+ * To clone the repository for download or use within your GitHub head-over to this link https://github.com/git-guides/git-clone
 
 # _Credits_
 
 ## _Content and Media_
 
  * All written content for this site has been provided but the [Cosbranok](https://www.facebook.com/Cosbranok) founding members. (Tina Croshaw + Kimberley Croshaw)
+
  * All the images have also been provided by the [Cosbranok](https://www.facebook.com/Cosbranok) founding members (Tina Croshaw + Kimberley Croshaw)
 
 ## _Code_
