@@ -1,4 +1,18 @@
 # _Cosbranok Re-enactment Society_
+
+![Mock-up-Image](documents/readme-images/mockup1.png)
+[__Click here to view published site__](https://a-croshaw.github.io/cosbranok/)
+
+This is a featured website publication to represent the Cosbranok Re-enactment Society in Co.Kerry, Ireland. 
+
+This website is to provide information about Cosbranok and what they do as a re-enactment society using a mixture of written content and pictures. 
+
+It also displays dates and times of shows they attend throughout the year to allow people to be able to them firsthand.
+
+Finally, a contact form allows people to request more in-depth information, or to enquire about becoming a member of Cosbranok.
+
+# _Content Menu_
+
 1. [Features](#features)
     1. [Elements on all pages](#elements-on-all-pages)
         1. [The background](#1---the-background)
@@ -26,24 +40,20 @@
     2. [Testing](#testing)
         1. [Responsiveness](#responsiveness)
         2. [Navigation, External Links, and User Input Testing](#navigation-external-links-and-user-input-testing)
-        3. [Accessibility](#accessibility)
-
-        4. [Validation](#validation)
-        5. [Lighthouse Reports](#lighthouse-reports)
+    3. [Accessibility](#accessibility)
+    4. [Validation](#validation)
+        1. [HTML Validation](#html-validation)
+        2. [CSS Validation](#css-validation)
+        3. [Lighthouse Reports](#lighthouse-reports)
             1. [Desktop](#desktop)
             2. [Mobile](#mobile)
-
-
-This is a featured website publication to represent the Cosbranok Re-enactment Society in Co.Kerry, Ireland. 
-
-This website is to provide information about Cosbranok and what they do as a re-enactment society using a mixture of written content and pictures. 
-
-It also displays dates and times of shows they attend throughout the year to allow people to be able to them firsthand.
-
-Finally, a contact form allows people to request more in-depth information, or to enquire about becoming a member of Cosbranok.
-
-![Mock-up-Image](documents/readme-images/mockup1.png)
-[__Click here to view published site__](https://a-croshaw.github.io/cosbranok/)
+    5. [Depolyment](#deployment)
+        1. [Version Control](#page-deployment)
+        2. [Page Deployment](#page-deployment)
+        3. [Cloning Repository](#cloning-repository)
+    6. [Credits](#credits)
+        1. [Content and Media](#content-and-media)
+        2. [Code](#code)
 
 # _Features_
 
